@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seu Site</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.jpg" alt="Sua logo colocada aqui">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Local">Cadastre-se</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!--Carroussel-->
+    <header id="caroussel-site" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#caroussel-site" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#caroussel-site" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#caroussel-site" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/academia1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="h5 text-warning">Traga a melhor experiência para sua academia</h5>
+            <p>Com nossos produtos você poderá ampliar os horizontes da sua empresa</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/academia2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="h5 text-warning">Administre seus membros</h5>
+            <p>Saiba e administre os integrantes da sua equipe, e seus clientes</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/academia3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="h5 text-warning">Aumente sua produtividade</h5>
+            <p>Tenha uma melhor visualização de rentabilidade para o seu negócio</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#caroussel-site" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#caroussel-site" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
+    <!--Citação-->
+    <figure>
+      <blockquote class="blockquote">
+        <h3 class="fw-lighter text-center fst-italic mt-5">"Transforme suor em força, e desafio em superação."</h3>
+      </blockquote>
+      <figcaption class="blockquote-footer text-center">
+        <cite title="Source Title">WatchFit</cite>
+      </figcaption>
+    </figure>
+    <!--About Cards-->
+    <section id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/img/card2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Melhor gestão</h5>
+                  <p class="card-text">Nosso sistema de administração de academia é o coração pulsante por trás da sua
+                    empresa.<br><br>Estamos comprometidos em simplificar a administração da sua academia para que você
+                    possa se concentrar nos seus membros e na sua paixão por uma vida saudável.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/img/card1.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Transforme sua academia</h5>
+                  <p class="card-text">você pode oferecer aos seus membros uma experiência impecável e
+                    eficiente.<br><br>Não importa o tamanho da sua academia, nossa plataforma é escalável e adaptável às
+                    suas necessidades exclusivas. Libere mais tempo para se concentrar no crescimento e na satisfação
+                    dos membros.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Menu-->
+    <section id="menu" class="container mt-5 mb-5">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="produtos" data-bs-toggle="tab" data-bs-target="#produtos-pane"
+            type="button" role="tab" aria-controls="produtos-pane" aria-selected="true">Produtos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="assinantes" data-bs-toggle="tab" data-bs-target="#assinantes-pane" type="button"
+            role="tab" aria-controls="assinantes-pane" aria-selected="false">Assinantes</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="avaliacoes" data-bs-toggle="tab" data-bs-target="#avaliacoes-pane" type="button"
+            role="tab" aria-controls="avaliacoes-pane" aria-selected="false">Avaliações</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="smartTabContent">
+        <div class="tab-pane fade show active" id="produtos-pane" role="tabpanel" aria-labelledby="produtos"
+          tabindex="0">
+          <!-- Produtos Cards-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&1/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&2/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&3/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&4/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="assinantes-pane" role="tabpanel" aria-labelledby="assinantes" tabindex="0">
+          <!--Assinantes cards-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&5/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&6/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&7/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&8/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="avaliacoes-pane" role="tabpanel" aria-labelledby="avaliacoes" tabindex="0">
+          <!--Avaliação Cards-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&9/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&10/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&11/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://source.unsplash.com/random/?gym&12/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Modal-->
+    <section id="local" class="container text-center mb-5">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localModal">
+        conhecer a empresa
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="localModal" tabindex="-1" aria-labelledby="localModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="localModalLabel">Estamos te esperando!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Te esperamos na rua Santos Dummont, n. 213 -Jd.Abreu Neves<br>
+                São Paulo/SP
+              </p>
+              <iframe style="width: 100%;" height="403" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?width=523&amp;height=403&amp;hl=en&amp;q=%20S%C3%A3o%20Paulo+(Avenida%20Paulista)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    <!--footer-->
+  <footer class="text-center bg-dark p-5 mt-5 text-light">
+    <img width="80px" src="assets/img/logo.jpg" alt="">
+    <p class="mt-2 mb-0 fw-bold">WatchFit | Transformando a experiência da sua academia</p>
+    <p>(95) 98419-1207</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
