@@ -13,7 +13,8 @@ section {
 }
 
 .navbar-brand img {
-    width: 50px;
+    max-width:200px;
+    
 }
 
 .carousel-item {
